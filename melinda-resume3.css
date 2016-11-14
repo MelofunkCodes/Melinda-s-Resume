@@ -1,0 +1,241 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, h3, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h4, h5 {
+ font-family: Raleway, sans-serif;
+ font-weight: 100;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+li {
+   font-family: Raleway, sans-serif;
+   font-weight: 400;
+   letter-spacing: 0.1em;
+   word-spacing: 0.1em;
+   padding: 1.1em 0em;
+   margin: 0em 1em; 
+}
+
+
+/* Main */
+.main {
+  text-align: center;
+  background: url("https://s5.postimg.org/5j4kfpo9j/Melinda_Yeoh_Full_length_shot_2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.main .container {
+  position: relative;
+  top: 300px; 
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 700%; 
+}
+
+.main ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main li {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 105%; /*18px*/
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#ffa800;
+  color:#000;
+}
+
+/* Navigation */
+.navigation {
+    text-align: center;
+    background-color: LightGrey;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #13241C;
+  font-weight: 100;
+}
+
+.navigation a:hover {
+  background:#ffa800;
+  color:#000;
+}
+
+/* Objective */
+.objective {
+  text-align: left;
+  background-color: #2699BF;
+  padding: 1%;
+}
+
+.objective h2 {
+  color: #ffa800;
+  font-size: 40px;
+  margin:0;
+  padding: 10px 0 0;
+}
+
+.objective p {
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+}
+
+/* skills */
+.skills {
+  background-color: #1c1c1c;
+  padding: 50px 0 50px;
+  text-align: center;
+}
+
+.skills .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.skills h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.skills p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/* Education */
+.education {
+  text-align: right;
+  background-color: #ffa800;
+  padding: 1%;
+}
+
+.education h2 {
+  color: #2699bf;
+  font-size: 40px;
+  margin:0;
+  padding: 10px 0 0;
+}
+
+.education h3 {
+  color: #1c1c1c;
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 0 0;
+}
+
+.education p {
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+}
+
+
+/* Work Experience */
+.work {
+  background-color: #1c1c1c;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.work .col {
+  border: 2px solid #2699bf;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.work h2 {
+  color: #efefef;
+  font-size: 40px;
+  margin:0;
+  padding: 0px 0 0;
+}
+
+.work h4 {
+  color: #ffa800;
+  font-size: 15px;
+}
+
+.work h3 {
+  color: #2699bf;
+  font-size: 20px;
+}
+
+.work h5 {
+  color: #ffa800;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.work li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 80%;
+  color: #efefef;
+  letter-spacing: 2px;
+  word-spacing: 0em;
+  padding: 0.1em 0em;
+  margin: 0em 0.5em; 
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/* Footer */
+.footer {
+  text-align: right;
+  background-color: LightGrey;
+  padding: 1%;
+}
