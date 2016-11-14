@@ -1,5 +1,6 @@
 Experimenting with different HTML and CSS properties to create my own webpage resume. 
 
+<<<<<<< HEAD
 Playing around with...
 
 ...in HTML
@@ -20,5 +21,6 @@ Playing around with...
 NOTES:
 a) Best viewed on a desktop versus tablet or phone. Haven't gotten around to experimenting much with responsive web design yet. 
 b) I felt I could've organized grouped my selectors much better on my CSS. I tried to simplify certain elements on HTML to remove some selectors on CSS, but that changed the layout a bit. 
+c) Please refer to files "melinda-resume3.html" and "melinda-resume3.css" for final versions.
 
 Enjoy!
