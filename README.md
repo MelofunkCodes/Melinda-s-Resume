@@ -1,6 +1,5 @@
 Experimenting with different HTML and CSS properties to create my own webpage resume. 
 
-<<<<<<< HEAD
 Playing around with...
 
 ...in HTML
